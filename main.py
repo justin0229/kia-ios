@@ -167,7 +167,7 @@ def unlock_car():
 
         # Unlock the vehicle using the VehicleManager's unlock method
         result = vehicle_manager.unlock(VEHICLE_ID)
-        print(f"Unlock result: {result}")
+        # print(f"Unlock result: {result}")
 
         return jsonify({"status": "Car unlocked", "result": result}), 200
     except Exception as e:
