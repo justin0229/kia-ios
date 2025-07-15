@@ -103,7 +103,7 @@ def list_vehicles():
         return jsonify({"error": str(e)}), 500
 
 # Start climate endpoint for summer months
-@app.route('/start_climate_ac', methods=['POST'])
+@app.route('/start_climate', methods=['POST'])
 def start_climate():
     print("Received request to /start_climate")
 
