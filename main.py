@@ -127,7 +127,7 @@ def start_climate():
         result = vehicle_manager.start_climate(VEHICLE_ID, climate_options)
         print(f"Start climate result: {result}")
 
-        return jsonify({"status": "Climate started", "result": result}), 200
+        return jsonify("Sorento has started with A/C."), 200
     except Exception as e:
         print(f"Error in /start_climate: {e}")
         return jsonify({"error": str(e)}), 500
