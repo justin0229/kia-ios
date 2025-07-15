@@ -120,7 +120,7 @@ def start_climate():
             set_temp=65,  # Set temperature in Fahrenheit
             duration=10,   # Duration in minutes
            # heated_seat=1,  # Test for heated seat
-            driver_seat_heat=1  # Test for heated seat
+           # driver_seat_heat=1  # Test for heated seat
         )
 
         # Start climate control using the VehicleManager's start_climate method
