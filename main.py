@@ -193,7 +193,7 @@ def lock_car():
         result = vehicle_manager.lock(VEHICLE_ID)
         print(f"Lock result: {result}")
 
-        return jsonify({"status": "Car locked", "result": result}), 200
+        return jsonify("Sorento has been locked"), 200
     except Exception as e:
         print(f"Error in /lock_car: {e}")
         return jsonify({"error": str(e)}), 500
