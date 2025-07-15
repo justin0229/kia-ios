@@ -119,7 +119,7 @@ def start_climate():
         climate_options = ClimateRequestOptions(
             set_temp=65,  # Set temperature in Fahrenheit
             duration=10,   # Duration in minutes
-            heated_seat=1,  # Test for heated seat
+           # heated_seat=1,  # Test for heated seat
             driver_seat_heat=1  # Test for heated seat
         )
 
